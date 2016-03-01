@@ -1,6 +1,5 @@
 body {
     background-color: LightGray;
-
 }
 div {
     border: 1px solid Chocolate;
@@ -28,12 +27,16 @@ h4{
 	letter-spacing: .1em;
 }
 
+body{
+	margin:0;
+}
 
-.head{
+head{
 	margin:0;
 	padding:0;
 	border:0;
 }
+
 .top-nav{
 	margin:0;
 }
@@ -84,8 +87,9 @@ padding:1em;
     background-position: center bottom;
     background-position-x: 50%;
     background-position-y: 100%;
+    background-position: center bottom;
     background-size: cover;
-  	height: 45.938rem;
+  	height: 41rem;
     overflow: auto;
   	margin: 0em;
   	padding-top: 4.375rem;
@@ -122,5 +126,25 @@ padding:1em;
 
 .learn-more-btn:hover{
 	background-color: #AF4524;
+}
+.cases {
+	width:100%;
+}
+
+.cases h2{
+	margin:auto;
+}
+
+.cases .devices {
+	margin: auto;
+    width: 33.3333333%;
+    display: inline-block;
+    height: 4em;
+}
+   
+
+.social .icons {
+	display:inline-block;
+	margin:auto;
 }
 
