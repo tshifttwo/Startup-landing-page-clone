@@ -27,14 +27,29 @@ h4{
 	letter-spacing: .1em;
 }
 
+h5{
+	font-family: helvetica neue, sans-serif;
+	font-size: .7em;
+	color:#838994;
+	font-weight: 200;
+	letter-spacing: .1em;
+	text-decoration: none;
+}
+
 body{
 	margin:0;
+	margin:auto;
+	background-color: white;
 }
 
 head{
 	margin:0;
 	padding:0;
 	border:0;
+}
+
+a{
+	color:black;
 }
 
 .top-nav{
@@ -128,23 +143,64 @@ padding:1em;
 	background-color: #AF4524;
 }
 .cases {
-	width:100%;
+	width:60%;
+	background-color: white;
+	padding-top:2em;
+	padding-bottom:2em;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:2em;
+}
+
+.cases h1{
+	text-align:center;
+	color:black;
+	padding:1em;
+	font-weight: 150;
 }
 
 .cases h2{
-	margin:auto;
+	color:black;
+	font-weight:400;
 }
 
-.cases .devices {
-	margin: auto;
-    width: 33.3333333%;
-    display: inline-block;
-    height: 4em;
-}
-   
+.devices {
+	float:left;
+	display: inline-block;
+    width: 33%;
+    text-align:center;
+    background-color: white
+    letter-spacing:.03em;
+    margin-bottom:4em;
 
-.social .icons {
+}
+
+footer{
+	clear:both;
+	text-decoration: none;
+	margin-top:3em;
+	text-align:center;
+	padding:3em;
+}
+
+
+
+footer ul li{
 	display:inline-block;
-	margin:auto;
+	width:2.5rem;
+	height:2.5rem;
+	margin:1.25rem 1.25rem;
+	border-radius:1.25rem;
+	border: 1px solid #eaebec; 
 }
+
+footer h4{
+	color:black;
+	font-weight:300;
+	margin-bottom:.5em;
+	text-align:center;
+}
+
+footer h5{text-align:center;}
+
 
